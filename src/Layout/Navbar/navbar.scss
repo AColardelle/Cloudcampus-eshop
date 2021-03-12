@@ -1,3 +1,13 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+
+
 
 @media screen and (min-width: 768px){
 .navbar
@@ -53,6 +63,16 @@ a:visited{
     padding-right: 0px !important;
     margin-left:0px;
    }
+
+.panier
+{
+    width: 200px;
+    height:200px;
+    background-color:purple;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+}   
 }
     
 

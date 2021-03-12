@@ -1,0 +1,97 @@
+.card{
+    width:140px;
+    position:relative;
+    // background:greenyellow;
+
+    @media screen and(min-width:340px) {width:155px;}
+    @media screen and(min-width:360px) {width:185px;}
+    @media screen and (min-width:992px){width:240px;}
+
+    .illu{
+        height:140px;
+        background:hotpink;
+
+        @media screen and(min-width:340px) {height:155px;}
+        @media screen and(min-width:360px) {height:185px;}
+        @media screen and (min-width:992px){height:240px;}
+
+        img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+        }
+    }
+
+
+    .text{
+        padding-top:12px;
+        height: 120px;
+        // background:indianred;
+
+        @media screen and (min-width:992px){
+            padding-top:15px;
+            height:130px;
+        }
+
+        h1{
+            font-size:18px;
+            font-weight: 400;
+
+            @media screen and (min-width:992px){
+                font-size:20px;
+            }
+        }
+        p{
+            font-size:15px;
+            line-height: 19px;
+            letter-spacing: 0.2px;
+            padding-top:7px;
+            color:rgb(105, 105, 105);
+
+            @media screen and (min-width:992px){
+                font-size:16px;
+                padding-top:9px;
+            }
+
+        }
+        h2{
+            padding-top:9px;
+            font-size:17px;
+            letter-spacing: 0.8px;
+            font-weight: 700;
+
+            @media screen and (min-width:992px){
+                padding-top:10px;
+                font-size:18px;
+            }
+        }
+    }
+
+
+    .buttonAddBox{
+        background:rgb(2, 120, 218);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position:absolute;
+        bottom:0;
+        right:0;
+
+        border-radius: 10000px;
+        padding:7px;
+        height:20px;
+        width:20px;
+
+        cursor:pointer;
+
+        &:hover{
+            background:rgb(44, 149, 235);
+        }
+        svg{
+            width:16px;
+            fill:white;
+            // padding-left:1px;
+        }
+    }
+
+}
